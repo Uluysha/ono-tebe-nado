@@ -19,7 +19,7 @@
   line-height: 24px;
 }
 
-.header_link{
+.header_link {
   text-decoration: underline;
   list-style: circle;
   font-size: 18px;
@@ -315,27 +315,27 @@
 }
 
 .about_paragraph-space0 {
-  letter-spacing: 0em;  
+  letter-spacing: 0em;
 }
 
 .about_paragraph-space-1 {
-  letter-spacing: -0.01em;  
+  letter-spacing: -0.01em;
 }
 
 .about_paragraph-space1 {
-  letter-spacing: 0.01em;  
+  letter-spacing: 0.01em;
 }
 
 .about_paragraph-space2 {
   letter-spacing: 0.02em;
 }
 
-.about_paragraph-space3 { 
-  letter-spacing: 0.03em;  
+.about_paragraph-space3 {
+  letter-spacing: 0.03em;
 }
 
-.about_paragraph-space4 { 
-  letter-spacing: 0.04em;  
+.about_paragraph-space4 {
+  letter-spacing: 0.04em;
 }
 
 .footer {
@@ -377,7 +377,7 @@
   text-decoration: underline;
 }
 
-.footer_social-list{
+.footer_social-list {
   list-style: none;
   display: flex;
   justify-self: end;
