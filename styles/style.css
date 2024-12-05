@@ -1,23 +1,22 @@
 /* место для вашего кода */
 .header {
   display: grid;
-  grid-template-columns: 1fr 148px 1fr;
+  grid-template-columns: 1fr 138px 1fr;
   align-items: center;
   letter-spacing: normal;
-  padding: 92px 50px;
+  padding: 93.16px 50px;
 }
+
 .header_menu {
   color: rgba(0, 0, 0, 1);
-  display: flex;
 }
 
 .header_links-list {
   display: flex;
   flex-direction: row;
-  gap: 35px;
+  gap: 34px;
   font-size: 18px;
   line-height: 24px;
-  align-items: center;
 }
 
 .header_link{
@@ -45,7 +44,9 @@
 }
 
 .address {
-	justify-self: end;
+  width: 100%;
+  max-width: 240px;
+	justify-self: flex-end;
   font-style: inherit;
   align-self: center;
   font-size: 18px;
@@ -92,7 +93,7 @@
 
 .aligned-text_center {
   text-align: center;
-  line-height: 1;
+  line-height: 1.4;
   color: white;
   font-size: 100px;
   font-weight: bold;
@@ -124,7 +125,7 @@
   display: flex;
   justify-self: end;
   align-self: flex-end;
-  gap: 79px;
+  gap: 80.6px;
 }
 
 .cover_description-text {
@@ -163,10 +164,10 @@
   padding-bottom: 27px;
   font-size: 40px;
   font-weight: bold;
-  line-height: 24px;
+  line-height: 46.96px;
   text-align: left;
-  color: rgba(255, 255, 255, 1);
-  z-index: 2;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
 }
 
 .card_text {
@@ -176,6 +177,10 @@
   text-align: left;
   color: rgba(255, 255, 255, 1);
   z-index: 2;
+}
+
+.dot {
+  letter-spacing: 0.13em;
 }
 
 .lots_card-list {
@@ -198,11 +203,12 @@
 
 .card_title {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-transform: uppercase;
   font-size: 22px;
   z-index: 1;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 26.4px;
   text-align: left;
   color: white;
 }
@@ -237,11 +243,11 @@
 .lots_look-more-link {
   display: block;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 23.48px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin: 0 40px;
+  padding-left: 40px;
 }
 
 .about {
@@ -281,7 +287,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0,01em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -293,7 +298,7 @@
   padding-top: 98px;
   font-size: 40px;
   font-weight: 700;
-  line-height: 47px;
+  line-height: 46.96px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -309,6 +314,30 @@
   padding-top: 100px;
 }
 
+.about_paragraph-space0 {
+  letter-spacing: 0em;  
+}
+
+.about_paragraph-space-1 {
+  letter-spacing: -0.01em;  
+}
+
+.about_paragraph-space1 {
+  letter-spacing: 0.01em;  
+}
+
+.about_paragraph-space2 {
+  letter-spacing: 0.02em;
+}
+
+.about_paragraph-space3 { 
+  letter-spacing: 0.03em;  
+}
+
+.about_paragraph-space4 { 
+  letter-spacing: 0.04em;  
+}
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -318,14 +347,20 @@
   text-underline-offset: 4px;
 }
 
-.address {
-  margin: auto;
-}
-
 .footer_menu {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer_address {
+  width: 100%;
+  max-width: 240px;
+  font-style: inherit;
+  align-self: center;
+  font-size: 18px;
+  line-height: 24px;
+  text-underline-offset: 4px;
 }
 
 .footer_menu-list {
@@ -347,10 +382,6 @@
   display: flex;
   justify-self: end;
   gap: 48px;
-}
-
-.footer_social-link {
-  
 }
 
 .footer_social-icon {
