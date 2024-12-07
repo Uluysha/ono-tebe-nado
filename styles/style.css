@@ -337,7 +337,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-size: 18px;
-  min-height: 98px;
   margin: 165px 50px 88px 50px;
   text-underline-offset: 4px;
 }
@@ -354,12 +353,12 @@
   text-align: center;
 }
 
-.footer_menu-link-active {
-  text-decoration: none;
-}
-
 .footer_menu-link {
   text-decoration: underline;
+}
+
+.footer_menu-link-active {
+  text-decoration: none;
 }
 
 .footer_social-list {
